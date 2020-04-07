@@ -4,6 +4,7 @@ const hbs=require('hbs')
 const add=require('./use.js')
 
 const app=express()
+const port=process.env.PORT || 3000
 
 const dirpath=path.join(__dirname,'../public')
 const viewpath=path.join(__dirname,'../templets/views')
@@ -73,6 +74,6 @@ app.get('*',(req,res)=>{
     })
 })
 
-app.listen(3000,()=>{
+app.listen(port,()=>{
     console.log('started')
 })
