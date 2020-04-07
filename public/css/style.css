@@ -1,6 +1,10 @@
-h1{
-    color: blueviolet;
+body{
+    color:#333333;
+    font-family:Arial;
+    padding:0 auto;
+
 }
-img{
-    width:20px;
+.para{
+    color:violet;
+    font-family:sans-serif;
 }
